@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33801.447
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormHtml5DataList", "src\WebFormHtml5DataList.csproj", "{48698C8E-EC52-4BCC-8C74-4A5F3B99CA5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "example\Example\Example.csproj", "{5F488A5A-98EF-41BF-BD45-283F42F8094D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48698C8E-EC52-4BCC-8C74-4A5F3B99CA5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48698C8E-EC52-4BCC-8C74-4A5F3B99CA5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48698C8E-EC52-4BCC-8C74-4A5F3B99CA5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48698C8E-EC52-4BCC-8C74-4A5F3B99CA5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F488A5A-98EF-41BF-BD45-283F42F8094D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F488A5A-98EF-41BF-BD45-283F42F8094D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F488A5A-98EF-41BF-BD45-283F42F8094D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F488A5A-98EF-41BF-BD45-283F42F8094D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F3C8761-7CA9-4A24-9ACA-C1E8046F9106}
+	EndGlobalSection
+EndGlobal
