@@ -65,23 +65,49 @@
     <Reference Include="System.Web.ApplicationServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Default.aspx" />
+    <Content Include="CusutomGridViewEncode.aspx" />
+    <Content Include="DataListExtender.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="js\jquery-3.5.1.min.js" />
+    <Content Include="js\jquery.mask-1.4.1.min.js" />
+    <Content Include="MaskInput.aspx" />
+    <Content Include="Validator.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="CusutomGridViewEncode.aspx.cs">
+      <DependentUpon>CusutomGridViewEncode.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="CusutomGridViewEncode.aspx.designer.cs">
+      <DependentUpon>CusutomGridViewEncode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataListExtender.aspx.cs">
+      <DependentUpon>DataListExtender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataListExtender.aspx.designer.cs">
+      <DependentUpon>DataListExtender.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="MaskInput.aspx.cs">
+      <DependentUpon>MaskInput.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MaskInput.aspx.designer.cs">
+      <DependentUpon>MaskInput.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validator.aspx.cs">
+      <DependentUpon>Validator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Validator.aspx.designer.cs">
+      <DependentUpon>Validator.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

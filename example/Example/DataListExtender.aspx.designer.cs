@@ -11,7 +11,7 @@ namespace Example
 {
 
 
-    public partial class Default
+    public partial class DataListExtender
     {
 
         /// <summary>
@@ -39,7 +39,7 @@ namespace Example
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::WebFormHtml5DataList.HTML5DataListControlExtender HTML5DataListControlExtenderFromDataSource;
+        protected global::WebFormHtml5DataList.Extender.HTML5DataListControlExtender HTML5DataListControlExtenderFromDataSource;
 
         /// <summary>
         /// TextBox2 控制項。
@@ -57,7 +57,7 @@ namespace Example
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::WebFormHtml5DataList.HTML5DataListControlExtender HTML5DataListControlExtenderListItem;
+        protected global::WebFormHtml5DataList.Extender.HTML5DataListControlExtender HTML5DataListControlExtenderListItem;
 
         /// <summary>
         /// TextBox3 控制項。
@@ -75,7 +75,7 @@ namespace Example
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::WebFormHtml5DataList.HTML5DataListControlExtender HTML5DataListControlExtenderListItemInPage;
+        protected global::WebFormHtml5DataList.Extender.HTML5DataListControlExtender HTML5DataListControlExtenderListItemInPage;
 
         /// <summary>
         /// Button1 控制項。

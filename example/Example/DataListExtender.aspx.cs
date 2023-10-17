@@ -8,7 +8,7 @@ using System.Web.UI.WebControls;
 
 namespace Example
 {
-    public partial class Default : System.Web.UI.Page
+    public partial class DataListExtender : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

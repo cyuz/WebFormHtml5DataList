@@ -45,8 +45,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HTML5DataListControlExtender.cs" />
+    <Compile Include="Extender\HTML5DataListControlExtender.cs" />
+    <Compile Include="MaskInput\AnyCharTextBoxControl.cs" />
+    <Compile Include="GridView\CustomHeaderEncodeBoundField.cs" />
+    <Compile Include="MaskInput\DecimalTextBoxControl.cs" />
+    <Compile Include="MaskInput\MaskTextBoxControl.cs" />
+    <Compile Include="MaskInput\ROCDateTextBoxControl .cs" />
+    <Compile Include="MaskInput\ROCMonthTextBoxControl.cs" />
+    <Compile Include="MaskInput\UpperTextBoxControl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validation\ValidationHelper.cs" />
+    <Compile Include="Validator\CustomDecimalValidator.cs" />
+    <Compile Include="Validator\CustomDependepntValidator.cs" />
+    <Compile Include="Validator\CustomRegexValidator.cs" />
+    <Compile Include="Validator\CustomRequiredValidator.cs" />
+    <Compile Include="Validator\CustomROCDateValidator.cs" />
+    <Compile Include="Validator\CustomROCMonthValidator.cs" />
+    <Compile Include="Validator\CustomTextBoxValidator.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

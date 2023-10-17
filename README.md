@@ -5,7 +5,7 @@ Extender to Show HTML5 DataList to webform
 1. register DLL 
    - sepcify at page start 
    ```
-   <%@ Register TagPrefix="CustomInPage" Namespace="WebFormHtml5DataList" Assembly= "WebFormHtml5DataList" %>
+   <%@ Register TagPrefix="CustomExtenderInPage" Namespace="WebFormHtml5DataList.Extender" Assembly= "WebFormHtml5DataList" %>
    ```
    - specify once at web.cofnig 
    ```
@@ -15,7 +15,7 @@ Extender to Show HTML5 DataList to webform
      <pages>
        ...
        <controls>
-         <add tagPrefix="CustomInWebConfig" assembly="WebFormHtml5DataList" namespace="WebFormHtml5DataList"/>
+         <add tagPrefix="CustomExtenderInWebConfig" assembly="WebFormHtml5DataList" namespace="WebFormHtml5DataList.Extender"/>
        </controls>
      </pages>
    </system.web>
@@ -23,8 +23,8 @@ Extender to Show HTML5 DataList to webform
 2. add the extender and set TargetControlID to TextBox control 
    ```
    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-   <CustomInPage:HTML5DataListControlExtender ID="HTML5DataListControlExtenderFromDataSource" TargetControlID="TextBox1" runat="server">                
-   </CustomInPage:HTML5DataListControlExtender>
+   <CustomExtenderInPage:HTML5DataListControlExtender ID="HTML5DataListControlExtenderFromDataSource" TargetControlID="TextBox1" runat="server">                
+   </CustomExtenderInPage:HTML5DataListControlExtender>
    ```
 3. use it like ListControl 
    - from datasource 
@@ -51,8 +51,8 @@ Extender to Show HTML5 DataList to webform
    ```
    - or set items in aspx page 
    ```
-   <CustomInWebConfig:HTML5DataListControlExtender ID="HTML5DataListControlExtenderListItemInPage" TargetControlID="TextBox3" runat="server">
+   <CustomExtenderInWebConfig:HTML5DataListControlExtender ID="HTML5DataListControlExtenderListItemInPage" TargetControlID="TextBox3" runat="server">
      <asp:ListItem Value="123"></asp:ListItem>
      <asp:ListItem Value="456"></asp:ListItem>
-   </CustomInWebConfig:HTML5DataListControlExtender>
+   </CustomExtenderInWebConfig:HTML5DataListControlExtender>
    ```

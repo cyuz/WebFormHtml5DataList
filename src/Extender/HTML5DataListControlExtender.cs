@@ -8,7 +8,7 @@ using System.Linq;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace WebFormHtml5DataList
+namespace WebFormHtml5DataList.Extender
 {
     [ToolboxData("<{0}:HTML5DataListControlExtender runat=server></{0}:HTML5DataListControlExtender>")]
 	[ParseChildren(true, "Items")]
